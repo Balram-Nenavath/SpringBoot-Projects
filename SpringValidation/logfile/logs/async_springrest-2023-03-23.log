@@ -1,0 +1,32 @@
+[INFO ] 2023-03-23 18:44:02.417 [main] SpringrestApplication - Hello ---- > Spring boot application is starting
+[INFO ] 2023-03-23 18:44:02.867 [background-preinit] Version - HV000001: Hibernate Validator 6.2.3.Final
+[INFO ] 2023-03-23 18:44:02.898 [main] SpringrestApplication - Starting SpringrestApplication using Java 17.0.1 on BNENAVAT-L-3324 with PID 18160 (C:\Users\bnenavath\Documents\workspace-spring-tool-suite-4-4.13.1.RELEASE\SpringValidation\target\classes started by bnenavath in C:\Users\bnenavath\Documents\workspace-spring-tool-suite-4-4.13.1.RELEASE\SpringValidation)
+[INFO ] 2023-03-23 18:44:02.905 [main] SpringrestApplication - The following 1 profile is active: "dev"
+[INFO ] 2023-03-23 18:44:04.056 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-03-23 18:44:04.116 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-03-23 18:44:04.771 [main] TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+[INFO ] 2023-03-23 18:44:04.792 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+[INFO ] 2023-03-23 18:44:04.793 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-03-23 18:44:04.793 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 2023-03-23 18:44:04.932 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-03-23 18:44:04.933 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1905 ms
+[INFO ] 2023-03-23 18:44:05.346 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-03-23 18:44:05.428 [main] Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+[INFO ] 2023-03-23 18:44:05.613 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-03-23 18:44:05.756 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-03-23 18:44:05.986 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-03-23 18:44:06.007 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-03-23 18:44:06.854 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-03-23 18:44:06.864 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-03-23 18:44:07.190 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-03-23 18:44:07.668 [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[INFO ] 2023-03-23 18:44:07.694 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+[INFO ] 2023-03-23 18:44:07.733 [main] TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+[INFO ] 2023-03-23 18:44:07.745 [main] SpringrestApplication - Started SpringrestApplication in 5.23 seconds (JVM running for 6.335)
+[INFO ] 2023-03-23 18:44:08.489 [RMI TCP Connection(3)-127.0.0.1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-03-23 18:44:08.489 [RMI TCP Connection(3)-127.0.0.1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-03-23 18:44:08.491 [RMI TCP Connection(3)-127.0.0.1] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2023-03-23 18:45:51.828 [RMI TCP Connection(7)-127.0.0.1] SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 2023-03-23 18:45:51.854 [RMI TCP Connection(7)-127.0.0.1] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-03-23 18:45:51.857 [RMI TCP Connection(7)-127.0.0.1] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-03-23 18:45:51.859 [RMI TCP Connection(7)-127.0.0.1] HikariDataSource - HikariPool-1 - Shutdown completed.

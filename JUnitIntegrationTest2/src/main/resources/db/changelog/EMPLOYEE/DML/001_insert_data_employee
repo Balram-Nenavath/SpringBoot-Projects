@@ -1,0 +1,5 @@
+
+INSERT INTO employee VALUES(1, 'User1','cse','20k');
+INSERT INTO employee VALUES(2, 'User2','cse','20k);
+INSERT INTO employee VALUES(3, 'User3','cse','20k);
+INSERT INTO employee VALUES(4, 'User4','cse','20k);

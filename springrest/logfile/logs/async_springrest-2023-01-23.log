@@ -1,0 +1,629 @@
+[INFO ] 2023-01-23 14:52:33.827 [main] SpringrestApplication - Hello ---- > Spring boot application is starting
+[INFO ] 2023-01-23 14:52:34.254 [main] SpringrestApplication - Starting SpringrestApplication using Java 17.0.1 with PID 10168 (C:\PROJECTS\springrest\target\classes started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 14:52:34.257 [main] SpringrestApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 14:52:34.737 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 14:52:34.790 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 14:52:35.224 [main] TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+[INFO ] 2023-01-23 14:52:35.234 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+[INFO ] 2023-01-23 14:52:35.235 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-23 14:52:35.235 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+[INFO ] 2023-01-23 14:52:35.329 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-23 14:52:35.329 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1041 ms
+[INFO ] 2023-01-23 14:52:35.466 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-23 14:52:35.526 [main] Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+[WARN ] 2023-01-23 14:52:35.708 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 14:52:35.832 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-23 14:52:36.065 [main] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7254838
+[INFO ] 2023-01-23 14:52:36.070 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-23 14:52:36.101 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 14:52:36.822 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 14:52:36.834 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 14:52:37.074 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 14:52:37.336 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+[INFO ] 2023-01-23 14:52:37.370 [main] TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+[INFO ] 2023-01-23 14:52:37.379 [main] SpringrestApplication - Started SpringrestApplication in 3.485 seconds (process running for 4.34)
+[INFO ] 2023-01-23 14:52:47.161 [http-nio-8081-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-01-23 14:52:47.161 [http-nio-8081-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-01-23 14:52:47.163 [http-nio-8081-exec-1] DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2023-01-23 14:54:27.228 [RMI TCP Connection(9)-127.0.0.1] SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 2023-01-23 14:54:27.257 [RMI TCP Connection(9)-127.0.0.1] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+[INFO ] 2023-01-23 14:54:27.258 [RMI TCP Connection(9)-127.0.0.1] StandardService - Stopping service [Tomcat]
+[INFO ] 2023-01-23 14:54:27.259 [RMI TCP Connection(9)-127.0.0.1] [/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO ] 2023-01-23 14:54:27.263 [RMI TCP Connection(9)-127.0.0.1] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+[INFO ] 2023-01-23 14:54:27.265 [RMI TCP Connection(9)-127.0.0.1] Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+[INFO ] 2023-01-23 14:54:27.267 [RMI TCP Connection(9)-127.0.0.1] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 14:54:27.268 [RMI TCP Connection(9)-127.0.0.1] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-23 14:54:27.271 [RMI TCP Connection(9)-127.0.0.1] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-23 14:54:33.480 [main] SpringrestApplication - Hello ---- > Spring boot application is starting
+[INFO ] 2023-01-23 14:54:33.879 [main] SpringrestApplication - Starting SpringrestApplication using Java 17.0.1 with PID 7040 (C:\PROJECTS\springrest\target\classes started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 14:54:33.882 [main] SpringrestApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 14:54:34.376 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 14:54:34.426 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 14:54:34.803 [main] TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+[INFO ] 2023-01-23 14:54:34.811 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+[INFO ] 2023-01-23 14:54:34.812 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-23 14:54:34.812 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+[INFO ] 2023-01-23 14:54:34.893 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-23 14:54:34.893 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 967 ms
+[INFO ] 2023-01-23 14:54:35.017 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-23 14:54:35.074 [main] Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+[WARN ] 2023-01-23 14:54:35.205 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 14:54:35.311 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-23 14:54:35.524 [main] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@13234ac9
+[INFO ] 2023-01-23 14:54:35.526 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-23 14:54:35.553 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 14:54:36.200 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 14:54:36.209 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 14:54:36.447 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 14:54:36.721 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+[INFO ] 2023-01-23 14:54:36.744 [main] TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+[INFO ] 2023-01-23 14:54:36.751 [main] SpringrestApplication - Started SpringrestApplication in 3.204 seconds (process running for 4.23)
+[INFO ] 2023-01-23 14:54:40.429 [http-nio-8081-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-01-23 14:54:40.430 [http-nio-8081-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-01-23 14:54:40.432 [http-nio-8081-exec-2] DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2023-01-23 14:55:56.448 [RMI TCP Connection(8)-127.0.0.1] SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 2023-01-23 14:55:56.464 [RMI TCP Connection(8)-127.0.0.1] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+[INFO ] 2023-01-23 14:55:56.464 [RMI TCP Connection(8)-127.0.0.1] StandardService - Stopping service [Tomcat]
+[INFO ] 2023-01-23 14:55:56.465 [RMI TCP Connection(8)-127.0.0.1] [/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO ] 2023-01-23 14:55:56.468 [RMI TCP Connection(8)-127.0.0.1] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+[INFO ] 2023-01-23 14:55:56.470 [RMI TCP Connection(8)-127.0.0.1] Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+[INFO ] 2023-01-23 14:55:56.471 [RMI TCP Connection(8)-127.0.0.1] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 14:55:56.473 [RMI TCP Connection(8)-127.0.0.1] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-23 14:55:56.475 [RMI TCP Connection(8)-127.0.0.1] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-23 14:56:44.440 [main] SpringrestApplication - Hello ---- > Spring boot application is starting
+[INFO ] 2023-01-23 14:56:44.831 [main] SpringrestApplication - Starting SpringrestApplication using Java 17.0.1 with PID 21100 (C:\PROJECTS\springrest\target\classes started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 14:56:44.834 [main] SpringrestApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 14:56:45.297 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 14:56:45.349 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 14:56:45.746 [main] TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+[INFO ] 2023-01-23 14:56:45.754 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+[INFO ] 2023-01-23 14:56:45.755 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-23 14:56:45.755 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+[INFO ] 2023-01-23 14:56:45.866 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-23 14:56:45.866 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 997 ms
+[INFO ] 2023-01-23 14:56:46.019 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-23 14:56:46.068 [main] Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+[WARN ] 2023-01-23 14:56:46.202 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 14:56:46.306 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-23 14:56:46.506 [main] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@13234ac9
+[INFO ] 2023-01-23 14:56:46.508 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-23 14:56:46.536 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 14:56:47.147 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 14:56:47.159 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 14:56:47.420 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 14:56:47.703 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+[INFO ] 2023-01-23 14:56:47.723 [main] TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+[INFO ] 2023-01-23 14:56:47.730 [main] SpringrestApplication - Started SpringrestApplication in 3.223 seconds (process running for 4.095)
+[INFO ] 2023-01-23 14:56:53.139 [http-nio-8081-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-01-23 14:56:53.140 [http-nio-8081-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-01-23 14:56:53.143 [http-nio-8081-exec-2] DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2023-01-23 15:03:43.859 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springrest.springrest.SpringrestApplicationTests]: SpringrestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2023-01-23 15:03:43.959 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springrest.springrest.SpringrestApplication for test class com.springrest.springrest.SpringrestApplicationTests
+[INFO ] 2023-01-23 15:03:44.354 [main] SpringrestApplicationTests - Starting SpringrestApplicationTests using Java 17.0.1 with PID 15876 (started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 15:03:44.359 [main] SpringrestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 15:03:44.963 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 15:03:45.019 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 15:03:45.471 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-23 15:03:45.543 [main] Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+[WARN ] 2023-01-23 15:03:45.738 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 15:03:45.940 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-23 15:03:46.254 [main] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1edf71d9
+[INFO ] 2023-01-23 15:03:46.256 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-23 15:03:46.295 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 15:03:47.015 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 15:03:47.028 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 15:03:47.449 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 15:03:47.817 [main] SpringrestApplicationTests - Started SpringrestApplicationTests in 3.702 seconds (process running for 5.19)
+[INFO ] 2023-01-23 15:03:48.089 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 15:03:48.092 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-23 15:03:48.096 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-23 15:14:13.181 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springrest.springrest.SpringrestApplicationTests]: SpringrestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2023-01-23 15:14:13.275 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springrest.springrest.SpringrestApplication for test class com.springrest.springrest.SpringrestApplicationTests
+[INFO ] 2023-01-23 15:14:13.673 [main] SpringrestApplicationTests - Starting SpringrestApplicationTests using Java 17.0.1 with PID 20200 (started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 15:14:13.676 [main] SpringrestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 15:14:14.322 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 15:14:14.386 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 15:14:14.838 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-23 15:14:14.916 [main] Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+[WARN ] 2023-01-23 15:14:15.082 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 15:14:15.289 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-23 15:14:15.594 [main] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@502c087e
+[INFO ] 2023-01-23 15:14:15.596 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-23 15:14:15.633 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 15:14:16.383 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 15:14:16.398 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 15:14:16.822 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 15:14:17.241 [main] SpringrestApplicationTests - Started SpringrestApplicationTests in 3.828 seconds (process running for 5.285)
+[INFO ] 2023-01-23 15:14:17.445 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 15:14:17.449 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-23 15:14:17.454 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-23 15:14:49.871 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springrest.springrest.SpringrestApplicationTests]: SpringrestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2023-01-23 15:14:49.965 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springrest.springrest.SpringrestApplication for test class com.springrest.springrest.SpringrestApplicationTests
+[INFO ] 2023-01-23 15:14:50.337 [main] SpringrestApplicationTests - Starting SpringrestApplicationTests using Java 17.0.1 with PID 7280 (started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 15:14:50.341 [main] SpringrestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 15:14:50.936 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 15:14:50.989 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 15:14:51.411 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-23 15:14:51.482 [main] Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+[WARN ] 2023-01-23 15:14:51.663 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 15:14:51.869 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-23 15:14:52.141 [main] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1850f2da
+[INFO ] 2023-01-23 15:14:52.143 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-23 15:14:52.182 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 15:14:52.900 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 15:14:52.914 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 15:14:53.358 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 15:14:53.789 [main] SpringrestApplicationTests - Started SpringrestApplicationTests in 3.681 seconds (process running for 5.137)
+[INFO ] 2023-01-23 15:14:54.012 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 15:14:54.016 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-23 15:14:54.021 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-23 15:17:14.466 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springrest.springrest.SpringrestApplicationTests]: SpringrestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2023-01-23 15:17:14.558 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springrest.springrest.SpringrestApplication for test class com.springrest.springrest.SpringrestApplicationTests
+[INFO ] 2023-01-23 15:17:14.932 [main] SpringrestApplicationTests - Starting SpringrestApplicationTests using Java 17.0.1 with PID 20600 (started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 15:17:14.935 [main] SpringrestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 15:17:15.550 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 15:17:15.606 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 15:17:16.057 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-23 15:17:16.135 [main] Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+[WARN ] 2023-01-23 15:17:16.302 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 15:17:16.492 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-23 15:17:16.759 [main] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@74cd798f
+[INFO ] 2023-01-23 15:17:16.761 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-23 15:17:16.792 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 15:17:17.531 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 15:17:17.547 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 15:17:17.991 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 15:17:18.367 [main] SpringrestApplicationTests - Started SpringrestApplicationTests in 3.669 seconds (process running for 5.126)
+[INFO ] 2023-01-23 15:17:18.603 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 15:17:18.605 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-23 15:17:18.609 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-23 15:17:38.277 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springrest.springrest.SpringrestApplicationTests]: SpringrestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2023-01-23 15:17:38.386 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springrest.springrest.SpringrestApplication for test class com.springrest.springrest.SpringrestApplicationTests
+[INFO ] 2023-01-23 15:17:38.793 [main] SpringrestApplicationTests - Starting SpringrestApplicationTests using Java 17.0.1 with PID 19496 (started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 15:17:38.796 [main] SpringrestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 15:17:39.504 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 15:17:39.560 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 15:17:40.063 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-23 15:17:40.124 [main] Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+[WARN ] 2023-01-23 15:17:40.315 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 15:17:40.515 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-23 15:17:40.857 [main] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@58182b96
+[INFO ] 2023-01-23 15:17:40.858 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-23 15:17:40.888 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 15:17:41.832 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 15:17:41.847 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 15:17:42.380 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 15:17:42.780 [main] SpringrestApplicationTests - Started SpringrestApplicationTests in 4.24 seconds (process running for 5.662)
+[INFO ] 2023-01-23 15:17:43.056 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 15:17:43.059 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-23 15:17:43.079 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-23 15:32:34.313 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springrest.springrest.SpringrestApplicationTests]: SpringrestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2023-01-23 15:32:34.422 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springrest.springrest.SpringrestApplication for test class com.springrest.springrest.SpringrestApplicationTests
+[INFO ] 2023-01-23 15:32:34.767 [main] SpringrestApplicationTests - Starting SpringrestApplicationTests using Java 17.0.1 with PID 3624 (started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 15:32:34.771 [main] SpringrestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 15:32:35.358 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 15:32:35.408 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 15:32:35.820 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-23 15:32:35.887 [main] Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+[WARN ] 2023-01-23 15:32:36.047 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 15:32:36.225 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-23 15:32:36.451 [main] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@502c087e
+[INFO ] 2023-01-23 15:32:36.453 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-23 15:32:36.482 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 15:32:37.260 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 15:32:37.272 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 15:32:37.683 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 15:32:38.068 [main] SpringrestApplicationTests - Started SpringrestApplicationTests in 3.512 seconds (process running for 4.85)
+[INFO ] 2023-01-23 15:32:38.275 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 15:32:38.278 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-23 15:32:38.282 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-23 15:34:24.391 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springrest.springrest.SpringrestApplicationTests]: SpringrestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2023-01-23 15:34:24.481 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springrest.springrest.SpringrestApplication for test class com.springrest.springrest.SpringrestApplicationTests
+[INFO ] 2023-01-23 15:34:24.847 [main] SpringrestApplicationTests - Starting SpringrestApplicationTests using Java 17.0.1 with PID 11712 (started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 15:34:24.851 [main] SpringrestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 15:34:25.528 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 15:34:25.585 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 15:34:26.099 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-23 15:34:26.179 [main] Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+[WARN ] 2023-01-23 15:34:26.347 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 15:34:26.545 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-23 15:34:26.930 [main] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@49986178
+[INFO ] 2023-01-23 15:34:26.933 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-23 15:34:26.968 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 15:34:27.733 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 15:34:27.745 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 15:34:28.262 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 15:34:28.650 [main] SpringrestApplicationTests - Started SpringrestApplicationTests in 4.044 seconds (process running for 5.381)
+[INFO ] 2023-01-23 15:34:28.919 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 15:34:28.923 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-23 15:34:28.932 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-23 15:36:48.478 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springrest.springrest.SpringrestApplicationTests]: SpringrestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2023-01-23 15:36:48.573 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springrest.springrest.SpringrestApplication for test class com.springrest.springrest.SpringrestApplicationTests
+[INFO ] 2023-01-23 15:36:48.915 [main] SpringrestApplicationTests - Starting SpringrestApplicationTests using Java 17.0.1 with PID 16304 (started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 15:36:48.919 [main] SpringrestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 15:36:49.469 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 15:36:49.515 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 15:36:49.970 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-23 15:36:50.042 [main] Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+[WARN ] 2023-01-23 15:36:50.199 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 15:36:50.373 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-23 15:36:50.621 [main] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@46c662f2
+[INFO ] 2023-01-23 15:36:50.623 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-23 15:36:50.660 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 15:36:51.375 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 15:36:51.386 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 15:36:51.803 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 15:36:52.186 [main] SpringrestApplicationTests - Started SpringrestApplicationTests in 3.485 seconds (process running for 4.768)
+[INFO ] 2023-01-23 15:36:52.386 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 15:36:52.387 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-23 15:36:52.393 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-23 15:39:57.783 [main] SpringrestApplication - Hello ---- > Spring boot application is starting
+[INFO ] 2023-01-23 15:39:58.143 [main] SpringrestApplication - Starting SpringrestApplication using Java 17.0.1 with PID 400 (C:\PROJECTS\springrest\target\classes started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 15:39:58.146 [main] SpringrestApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 15:39:58.564 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 15:39:58.606 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 15:39:58.957 [main] TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+[INFO ] 2023-01-23 15:39:58.967 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+[INFO ] 2023-01-23 15:39:58.968 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-23 15:39:58.968 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+[INFO ] 2023-01-23 15:39:59.040 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-23 15:39:59.040 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 864 ms
+[INFO ] 2023-01-23 15:39:59.170 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-23 15:39:59.216 [main] Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+[WARN ] 2023-01-23 15:39:59.336 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 15:39:59.426 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-23 15:39:59.599 [main] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@12f51a65
+[INFO ] 2023-01-23 15:39:59.600 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-23 15:39:59.625 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 15:40:00.204 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 15:40:00.212 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 15:40:00.443 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 15:40:00.696 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+[WARN ] 2023-01-23 15:40:00.701 [main] AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[INFO ] 2023-01-23 15:40:00.703 [main] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 15:40:00.705 [main] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-23 15:40:00.707 [main] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-23 15:40:00.709 [main] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+[INFO ] 2023-01-23 15:40:00.710 [main] StandardService - Stopping service [Tomcat]
+[INFO ] 2023-01-23 15:40:00.714 [main] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+[INFO ] 2023-01-23 15:40:00.714 [main] Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+[INFO ] 2023-01-23 15:40:00.721 [main] ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR] 2023-01-23 15:40:00.735 [main] LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+[INFO ] 2023-01-23 15:40:33.748 [RMI TCP Connection(53)-127.0.0.1] SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 2023-01-23 15:40:33.783 [RMI TCP Connection(53)-127.0.0.1] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+[INFO ] 2023-01-23 15:40:33.783 [RMI TCP Connection(53)-127.0.0.1] StandardService - Stopping service [Tomcat]
+[INFO ] 2023-01-23 15:40:33.785 [RMI TCP Connection(53)-127.0.0.1] [/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO ] 2023-01-23 15:40:33.788 [RMI TCP Connection(53)-127.0.0.1] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+[INFO ] 2023-01-23 15:40:33.791 [RMI TCP Connection(53)-127.0.0.1] Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+[INFO ] 2023-01-23 15:40:33.793 [RMI TCP Connection(53)-127.0.0.1] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 15:40:33.795 [RMI TCP Connection(53)-127.0.0.1] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-23 15:40:33.797 [RMI TCP Connection(53)-127.0.0.1] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-23 15:40:40.447 [main] SpringrestApplication - Hello ---- > Spring boot application is starting
+[INFO ] 2023-01-23 15:40:40.784 [main] SpringrestApplication - Starting SpringrestApplication using Java 17.0.1 with PID 11408 (C:\PROJECTS\springrest\target\classes started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 15:40:40.787 [main] SpringrestApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 15:40:41.203 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 15:40:41.255 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 15:40:41.612 [main] TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+[INFO ] 2023-01-23 15:40:41.619 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+[INFO ] 2023-01-23 15:40:41.620 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-23 15:40:41.620 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+[INFO ] 2023-01-23 15:40:41.696 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-23 15:40:41.697 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 879 ms
+[INFO ] 2023-01-23 15:40:41.817 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-23 15:40:41.867 [main] Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+[WARN ] 2023-01-23 15:40:42.005 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 15:40:42.094 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-23 15:40:42.271 [main] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2e929182
+[INFO ] 2023-01-23 15:40:42.273 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-23 15:40:42.298 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 15:40:42.820 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 15:40:42.827 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 15:40:43.053 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 15:40:43.310 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+[INFO ] 2023-01-23 15:40:43.333 [main] TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+[INFO ] 2023-01-23 15:40:43.341 [main] SpringrestApplication - Started SpringrestApplication in 2.83 seconds (process running for 3.589)
+[INFO ] 2023-01-23 15:40:47.564 [http-nio-8081-exec-2] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-01-23 15:40:47.565 [http-nio-8081-exec-2] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-01-23 15:40:47.566 [http-nio-8081-exec-2] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2023-01-23 15:47:01.847 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springrest.springrest.SpringrestApplicationTests]: SpringrestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2023-01-23 15:47:01.945 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springrest.springrest.SpringrestApplication for test class com.springrest.springrest.SpringrestApplicationTests
+[INFO ] 2023-01-23 15:47:02.302 [main] SpringrestApplicationTests - Starting SpringrestApplicationTests using Java 17.0.1 with PID 2068 (started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 15:47:02.306 [main] SpringrestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 15:47:02.921 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 15:47:02.971 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 15:47:03.422 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-23 15:47:03.491 [main] Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+[WARN ] 2023-01-23 15:47:03.664 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 15:47:03.851 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-23 15:47:04.080 [main] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@455cbf18
+[INFO ] 2023-01-23 15:47:04.081 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-23 15:47:04.113 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 15:47:04.899 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 15:47:04.914 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 15:47:05.358 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 15:47:05.682 [main] SpringrestApplicationTests - Started SpringrestApplicationTests in 3.611 seconds (process running for 4.937)
+[INFO ] 2023-01-23 15:47:05.921 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 15:47:05.924 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-23 15:47:05.927 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-23 15:47:16.160 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springrest.springrest.SpringrestApplicationTests]: SpringrestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2023-01-23 15:47:16.288 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springrest.springrest.SpringrestApplication for test class com.springrest.springrest.SpringrestApplicationTests
+[INFO ] 2023-01-23 15:47:16.637 [main] SpringrestApplicationTests - Starting SpringrestApplicationTests using Java 17.0.1 with PID 15732 (started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 15:47:16.640 [main] SpringrestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 15:47:17.268 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 15:47:17.327 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 15:47:17.796 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-23 15:47:17.874 [main] Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+[WARN ] 2023-01-23 15:47:18.049 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 15:47:18.279 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-23 15:47:18.551 [main] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@34beadce
+[INFO ] 2023-01-23 15:47:18.554 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-23 15:47:18.596 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 15:47:19.524 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 15:47:19.538 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 15:47:20.005 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 15:47:20.460 [main] SpringrestApplicationTests - Started SpringrestApplicationTests in 4.041 seconds (process running for 5.413)
+[INFO ] 2023-01-23 15:47:20.714 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 15:47:20.717 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-23 15:47:20.723 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-23 15:47:43.867 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springrest.springrest.SpringrestApplicationTests]: SpringrestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2023-01-23 15:47:43.958 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springrest.springrest.SpringrestApplication for test class com.springrest.springrest.SpringrestApplicationTests
+[INFO ] 2023-01-23 15:47:44.317 [main] SpringrestApplicationTests - Starting SpringrestApplicationTests using Java 17.0.1 with PID 6992 (started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 15:47:44.320 [main] SpringrestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 15:47:44.884 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 15:47:44.949 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 15:47:45.400 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-23 15:47:45.465 [main] Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+[WARN ] 2023-01-23 15:47:45.626 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 15:47:45.810 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-23 15:47:46.077 [main] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@60ed0b9d
+[INFO ] 2023-01-23 15:47:46.079 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-23 15:47:46.111 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 15:47:46.824 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 15:47:46.833 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 15:47:47.221 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 15:47:47.600 [main] SpringrestApplicationTests - Started SpringrestApplicationTests in 3.516 seconds (process running for 4.846)
+[INFO ] 2023-01-23 15:47:47.821 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 15:47:47.824 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-23 15:47:47.835 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-23 15:48:12.508 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springrest.springrest.SpringrestApplicationTests]: SpringrestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2023-01-23 15:48:12.601 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springrest.springrest.SpringrestApplication for test class com.springrest.springrest.SpringrestApplicationTests
+[INFO ] 2023-01-23 15:48:12.945 [main] SpringrestApplicationTests - Starting SpringrestApplicationTests using Java 17.0.1 with PID 1432 (started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 15:48:12.948 [main] SpringrestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 15:48:13.540 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 15:48:13.603 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 15:48:14.031 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-23 15:48:14.084 [main] Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+[WARN ] 2023-01-23 15:48:14.256 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 15:48:14.429 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-23 15:48:14.700 [main] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@58182b96
+[INFO ] 2023-01-23 15:48:14.702 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-23 15:48:14.732 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 15:48:15.450 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 15:48:15.462 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 15:48:15.857 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 15:48:16.186 [main] SpringrestApplicationTests - Started SpringrestApplicationTests in 3.454 seconds (process running for 4.803)
+[INFO ] 2023-01-23 15:48:16.438 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 15:48:16.440 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-23 15:48:16.443 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-23 15:48:30.746 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springrest.springrest.SpringrestApplicationTests]: SpringrestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2023-01-23 15:48:30.841 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springrest.springrest.SpringrestApplication for test class com.springrest.springrest.SpringrestApplicationTests
+[INFO ] 2023-01-23 15:48:31.192 [main] SpringrestApplicationTests - Starting SpringrestApplicationTests using Java 17.0.1 with PID 19440 (started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 15:48:31.196 [main] SpringrestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 15:48:31.774 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 15:48:31.828 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 15:48:32.248 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-23 15:48:32.322 [main] Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+[WARN ] 2023-01-23 15:48:32.481 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 15:48:32.681 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-23 15:48:32.927 [main] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4cc26df
+[INFO ] 2023-01-23 15:48:32.929 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-23 15:48:32.958 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 15:48:33.672 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 15:48:33.683 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 15:48:34.114 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 15:48:34.450 [main] SpringrestApplicationTests - Started SpringrestApplicationTests in 3.475 seconds (process running for 4.831)
+[INFO ] 2023-01-23 15:48:34.657 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 15:48:34.660 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-23 15:48:34.665 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-23 15:48:44.791 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springrest.springrest.SpringrestApplicationTests]: SpringrestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2023-01-23 15:48:44.888 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springrest.springrest.SpringrestApplication for test class com.springrest.springrest.SpringrestApplicationTests
+[INFO ] 2023-01-23 15:48:45.249 [main] SpringrestApplicationTests - Starting SpringrestApplicationTests using Java 17.0.1 with PID 14444 (started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 15:48:45.254 [main] SpringrestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 15:48:45.813 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 15:48:45.865 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 15:48:46.307 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-23 15:48:46.368 [main] Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+[WARN ] 2023-01-23 15:48:46.523 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 15:48:46.696 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-23 15:48:46.935 [main] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@34beadce
+[INFO ] 2023-01-23 15:48:46.937 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-23 15:48:46.971 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 15:48:47.781 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 15:48:47.804 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 15:48:48.220 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 15:48:48.565 [main] SpringrestApplicationTests - Started SpringrestApplicationTests in 3.539 seconds (process running for 4.884)
+[INFO ] 2023-01-23 15:48:48.782 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 15:48:48.785 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-23 15:48:48.792 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-23 15:51:24.791 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springrest.springrest.SpringrestApplicationTests]: SpringrestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2023-01-23 15:51:24.892 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springrest.springrest.SpringrestApplication for test class com.springrest.springrest.SpringrestApplicationTests
+[INFO ] 2023-01-23 15:51:25.228 [main] SpringrestApplicationTests - Starting SpringrestApplicationTests using Java 17.0.1 with PID 12636 (started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 15:51:25.231 [main] SpringrestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 15:51:25.796 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 15:51:25.872 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 15:51:26.286 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-23 15:51:26.358 [main] Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+[WARN ] 2023-01-23 15:51:26.520 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 15:51:26.699 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-23 15:51:26.963 [main] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@261275ae
+[INFO ] 2023-01-23 15:51:26.965 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-23 15:51:27.004 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 15:51:27.756 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 15:51:27.769 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 15:51:28.194 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 15:51:28.544 [main] SpringrestApplicationTests - Started SpringrestApplicationTests in 3.523 seconds (process running for 4.886)
+[INFO ] 2023-01-23 15:51:28.759 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 15:51:28.762 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-23 15:51:28.766 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-23 15:53:02.818 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springrest.springrest.SpringrestApplicationTests]: SpringrestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2023-01-23 15:53:02.920 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springrest.springrest.SpringrestApplication for test class com.springrest.springrest.SpringrestApplicationTests
+[INFO ] 2023-01-23 15:53:03.254 [main] SpringrestApplicationTests - Starting SpringrestApplicationTests using Java 17.0.1 with PID 10388 (started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 15:53:03.259 [main] SpringrestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 15:53:03.921 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 15:53:03.995 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 15:53:04.489 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-23 15:53:04.544 [main] Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+[WARN ] 2023-01-23 15:53:04.709 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 15:53:04.920 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-23 15:53:05.220 [main] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@34beadce
+[INFO ] 2023-01-23 15:53:05.222 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-23 15:53:05.259 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 15:53:06.223 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 15:53:06.240 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 15:53:06.750 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 15:53:07.179 [main] SpringrestApplicationTests - Started SpringrestApplicationTests in 4.133 seconds (process running for 5.441)
+[INFO ] 2023-01-23 15:53:07.436 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 15:53:07.439 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-23 15:53:07.448 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-23 15:53:25.025 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springrest.springrest.SpringrestApplicationTests]: SpringrestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2023-01-23 15:53:25.113 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springrest.springrest.SpringrestApplication for test class com.springrest.springrest.SpringrestApplicationTests
+[INFO ] 2023-01-23 15:53:25.453 [main] SpringrestApplicationTests - Starting SpringrestApplicationTests using Java 17.0.1 with PID 1688 (started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 15:53:25.456 [main] SpringrestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 15:53:26.105 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 15:53:26.158 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 15:53:26.558 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-23 15:53:26.625 [main] Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+[WARN ] 2023-01-23 15:53:26.781 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 15:53:26.966 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-23 15:53:27.245 [main] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@34beadce
+[INFO ] 2023-01-23 15:53:27.247 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-23 15:53:27.282 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 15:53:28.026 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 15:53:28.039 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 15:53:28.445 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 15:53:28.814 [main] SpringrestApplicationTests - Started SpringrestApplicationTests in 3.573 seconds (process running for 4.892)
+[INFO ] 2023-01-23 15:53:29.010 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 15:53:29.012 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-23 15:53:29.018 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-23 16:11:20.196 [RMI TCP Connection(41)-127.0.0.1] SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 2023-01-23 16:11:20.230 [RMI TCP Connection(41)-127.0.0.1] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+[INFO ] 2023-01-23 16:11:20.230 [RMI TCP Connection(41)-127.0.0.1] StandardService - Stopping service [Tomcat]
+[INFO ] 2023-01-23 16:11:20.231 [RMI TCP Connection(41)-127.0.0.1] [/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[INFO ] 2023-01-23 16:11:20.234 [RMI TCP Connection(41)-127.0.0.1] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+[INFO ] 2023-01-23 16:11:20.237 [RMI TCP Connection(41)-127.0.0.1] Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+[INFO ] 2023-01-23 16:11:20.238 [RMI TCP Connection(41)-127.0.0.1] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 16:11:20.240 [RMI TCP Connection(41)-127.0.0.1] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-23 16:11:20.242 [RMI TCP Connection(41)-127.0.0.1] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-23 16:11:36.725 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springrest.springrest.SpringrestApplicationTests]: SpringrestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2023-01-23 16:11:36.815 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springrest.springrest.SpringrestApplication for test class com.springrest.springrest.SpringrestApplicationTests
+[INFO ] 2023-01-23 16:11:37.161 [main] SpringrestApplicationTests - Starting SpringrestApplicationTests using Java 17.0.1 with PID 18904 (started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 16:11:37.164 [main] SpringrestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 16:11:37.765 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 16:11:37.816 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 16:11:38.279 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-23 16:11:38.351 [main] Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+[WARN ] 2023-01-23 16:11:38.526 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 16:11:38.720 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-23 16:11:38.979 [main] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@438aaa9f
+[INFO ] 2023-01-23 16:11:38.981 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-23 16:11:39.014 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 16:11:39.791 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 16:11:39.800 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 16:11:40.212 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 16:11:40.603 [main] SpringrestApplicationTests - Started SpringrestApplicationTests in 3.661 seconds (process running for 5.009)
+[INFO ] 2023-01-23 16:11:40.831 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 16:11:40.834 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-23 16:11:40.838 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-23 16:54:56.506 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springrest.springrest.SpringrestApplicationTests]: SpringrestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2023-01-23 16:54:56.602 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springrest.springrest.SpringrestApplication for test class com.springrest.springrest.SpringrestApplicationTests
+[INFO ] 2023-01-23 16:54:56.963 [main] SpringrestApplicationTests - Starting SpringrestApplicationTests using Java 17.0.1 with PID 8168 (started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 16:54:56.967 [main] SpringrestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 16:54:57.623 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 16:54:57.685 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 16:54:58.143 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-23 16:54:58.213 [main] Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+[WARN ] 2023-01-23 16:54:58.380 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 16:54:58.578 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-23 16:54:58.964 [main] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@52d9d817
+[INFO ] 2023-01-23 16:54:58.966 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-23 16:54:58.998 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 16:54:59.768 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 16:54:59.778 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 16:55:00.175 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 16:55:00.562 [main] SpringrestApplicationTests - Started SpringrestApplicationTests in 3.819 seconds (process running for 5.241)
+[INFO ] 2023-01-23 16:55:00.807 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springrest.springrest.JUnitTesting]: JUnitTesting does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2023-01-23 16:55:00.810 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springrest.springrest.SpringrestApplication for test class com.springrest.springrest.JUnitTesting
+[INFO ] 2023-01-23 16:55:00.834 [main] JUnitTesting - Starting JUnitTesting using Java 17.0.1 with PID 8168 (started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 16:55:00.835 [main] JUnitTesting - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 16:55:00.968 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 16:55:00.979 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 16:55:01.133 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[WARN ] 2023-01-23 16:55:01.137 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 16:55:01.140 [main] HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2023-01-23 16:55:01.227 [main] HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@55a2ca5e
+[INFO ] 2023-01-23 16:55:01.228 [main] HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 2023-01-23 16:55:01.236 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 16:55:01.266 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 16:55:01.266 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 16:55:01.301 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 16:55:01.394 [main] JUnitTesting - Started JUnitTesting in 0.579 seconds (process running for 6.073)
+[INFO ] 2023-01-23 16:55:01.475 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 16:55:01.482 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-23 16:55:01.502 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-23 16:55:01.510 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 16:55:01.511 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 2023-01-23 16:55:01.591 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-2 - Shutdown completed.
+[INFO ] 2023-01-23 16:55:31.595 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springrest.springrest.SpringrestApplicationTests]: SpringrestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2023-01-23 16:55:31.689 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springrest.springrest.SpringrestApplication for test class com.springrest.springrest.SpringrestApplicationTests
+[INFO ] 2023-01-23 16:55:32.072 [main] SpringrestApplicationTests - Starting SpringrestApplicationTests using Java 17.0.1 with PID 18116 (started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 16:55:32.075 [main] SpringrestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 16:55:32.726 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 16:55:32.781 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 16:55:33.247 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-23 16:55:33.320 [main] Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+[WARN ] 2023-01-23 16:55:33.498 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 16:55:33.691 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-23 16:55:33.977 [main] HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@261275ae
+[INFO ] 2023-01-23 16:55:33.979 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-23 16:55:34.011 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 16:55:34.817 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 16:55:34.833 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 16:55:35.306 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 16:55:35.698 [main] SpringrestApplicationTests - Started SpringrestApplicationTests in 3.863 seconds (process running for 5.327)
+[INFO ] 2023-01-23 16:55:35.911 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.springrest.springrest.JUnitTesting]: JUnitTesting does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2023-01-23 16:55:35.914 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.springrest.springrest.SpringrestApplication for test class com.springrest.springrest.JUnitTesting
+[INFO ] 2023-01-23 16:55:35.939 [main] JUnitTesting - Starting JUnitTesting using Java 17.0.1 with PID 18116 (started by bnenavath in C:\PROJECTS\springrest)
+[INFO ] 2023-01-23 16:55:35.940 [main] JUnitTesting - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-23 16:55:36.088 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-23 16:55:36.096 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+[INFO ] 2023-01-23 16:55:36.319 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[WARN ] 2023-01-23 16:55:36.324 [main] deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[INFO ] 2023-01-23 16:55:36.333 [main] HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2023-01-23 16:55:36.419 [main] HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@1a23136f
+[INFO ] 2023-01-23 16:55:36.419 [main] HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 2023-01-23 16:55:36.428 [main] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[INFO ] 2023-01-23 16:55:36.458 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-23 16:55:36.458 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-23 16:55:36.502 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-23 16:55:36.609 [main] JUnitTesting - Started JUnitTesting in 0.69 seconds (process running for 6.238)
+[INFO ] 2023-01-23 16:55:36.679 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 16:55:36.681 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-23 16:55:36.691 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-23 16:55:36.696 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-23 16:55:36.698 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 2023-01-23 16:55:36.770 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-2 - Shutdown completed.
